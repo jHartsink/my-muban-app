@@ -3,5 +3,5 @@ import { html } from '@muban/template';
 import type { HeadingProps } from './Heading.props';
 
 export function headingTemplate({ as, copy, style }: HeadingProps): ComponentTemplateResult {
-  return html`${as}class='${style}' ${copy} </${as}>`;
+  return html`<${as}class='${style}' ${copy} </${as}>`;
 }
